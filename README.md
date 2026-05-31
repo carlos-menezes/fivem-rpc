@@ -39,7 +39,9 @@ declare module "fivem-rpc/types" {
 
 `RpcPayload<Request, Response>` describes the argument and return value of a procedure. Use `undefined` for no argument or no return value.
 
-## Client to Server
+## Client ↔ Server
+
+### Client to Server
 
 On the server, register a handler:
 
@@ -66,7 +68,7 @@ if (result.success) {
 }
 ```
 
-## Server to Client
+### Server to Client
 
 On the client, register a handler:
 
