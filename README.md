@@ -1,5 +1,7 @@
 # fivem-rpc
 
+![NPM Version](https://img.shields.io/npm/v/fivem-rpc)
+
 Typed RPC for FiveM. Replaces raw `emitNet`/`onNet` calls with typed, Promise-based procedures between server, client and NUI.
 
 ## Installation
