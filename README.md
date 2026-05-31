@@ -13,7 +13,6 @@ pnpm add fivem-rpc
 Declare your procedures once by augmenting the registry interfaces from `fivem-rpc/types`. Both sides import the same declarations.
 
 ```ts
-// types.d.ts
 import type { RpcPayload } from "fivem-rpc/types";
 
 declare module "fivem-rpc/types" {
