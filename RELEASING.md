@@ -19,7 +19,7 @@ Releases are done manually using [changesets](https://github.com/changesets/chan
    When you're ready to release, consume all pending changesets to update `package.json` and `CHANGELOG.md`:
 
    ```sh
-   pnpm version
+   pnpm run version
    ```
 
    Commit the resulting changes:
