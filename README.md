@@ -1,6 +1,6 @@
 # fivem-rpc
 
-![NPM Version](https://img.shields.io/npm/v/fivem-rpc)
+[![NPM Version](https://img.shields.io/npm/v/fivem-rpc)](https://www.npmjs.com/package/fivem-rpc)
 
 Typed RPC for FiveM. Replaces raw `emitNet`/`onNet` calls with typed, Promise-based procedures between server, client and NUI.
 
