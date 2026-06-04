@@ -1,6 +1,6 @@
 {
 	"name": "fivem-rpc",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"type": "module",
 	"description": "A TypeScript library for creating type-safe RPCs in FiveM.",
 	"repository": {
