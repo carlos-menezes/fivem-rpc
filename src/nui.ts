@@ -7,9 +7,6 @@ import type {
 	RpcError,
 } from "./types.js";
 
-// Injected by FiveM into the NUI browser context.
-declare function GetParentResourceName(): string;
-
 type ClientToNuiHandler = (args: unknown) => Promise<unknown>;
 
 /** Tracks initialized channel names to prevent double-initialization. */
@@ -55,7 +52,7 @@ export const initializeRpc = ({
 	}
 	activeChannels.add(channel);
 
-	const resourceName = GetParentResourceName();
+	const resourceName = GetCurrentResourceName();
 	const nuiToClientEndpoint = `https://${resourceName}/__rpc_nui2c_${channel}__`;
 	const clientToNuiResponseEndpoint = `https://${resourceName}/__rpc_c2nui_response_${channel}__`;
 

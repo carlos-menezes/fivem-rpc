@@ -18,9 +18,6 @@ type PendingResponse = {
 type ServerToClientHandler = (args: unknown) => Promise<unknown>;
 type NuiToClientHandler = (args: unknown) => Promise<unknown>;
 
-declare function RegisterNuiCallbackType(callbackType: string): void;
-declare function SendNuiMessage(jsonString: string): void;
-
 const activeChannels = new Set<string>();
 
 type InitializeRpcOptions = {
