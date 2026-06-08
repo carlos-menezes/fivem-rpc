@@ -1,13 +1,13 @@
 /// <reference types="@citizenfx/client" />
 import type {
-	ClientToServerRpc,
-	ServerToClientRpc,
-	NuiToClientRpc,
 	ClientToNuiRpc,
+	ClientToServerRpc,
+	NuiToClientRpc,
+	RpcError,
 	RpcPayload,
 	RpcResult,
-	RpcError,
-} from "./types.js";
+	ServerToClientRpc,
+} from "./types.ts";
 import { generateCallId } from "./utils.ts";
 
 type PendingResponse = {

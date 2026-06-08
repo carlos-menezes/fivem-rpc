@@ -1,11 +1,11 @@
 /// <reference types="@citizenfx/client" />
 import type {
-	NuiToClientRpc,
 	ClientToNuiRpc,
+	NuiToClientRpc,
+	RpcError,
 	RpcPayload,
 	RpcResult,
-	RpcError,
-} from "./types.js";
+} from "./types.ts";
 
 type ClientToNuiHandler = (args: unknown) => Promise<unknown>;
 

@@ -5,7 +5,7 @@ import type {
 	RpcPayload,
 	RpcResult,
 	ServerToClientRpc,
-} from "./types.js";
+} from "./types.ts";
 import { generateCallId } from "./utils.ts";
 
 type ClientToServerHandler = (
